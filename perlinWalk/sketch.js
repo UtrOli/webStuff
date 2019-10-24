@@ -12,7 +12,7 @@ let offY;
 let noiseScale = 0.1;
 
 function setup() {
-  createCanvas(width, height, WEBGL);
+  cvn = createCanvas(width, height, WEBGL);
   ma = atan(cos(QUARTER_PI))+0.25;
   offX = random(10000);
   offY = random(10000);
