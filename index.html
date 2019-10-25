@@ -1,5 +1,6 @@
 <html>
 <head>
+  <!-- colorpalette https://colorhunt.co/palette/154144-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -11,32 +12,74 @@
       <hr class="my-4">
       <h1 class="display-4 textCenter">P5.js</h1>
       <!-- P5 Cards. -->
-      <div class="d-flex justify-content-center">
-        <div class="card card-space" style="width: 18rem;">
-          <img src="images/perlinwalk.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">PerlinWalk</h5>
-            <p class="card-text">Using p5.js to make voxel like terrain</p>
-            <a href="perlinWalk/index.html" class="btn btn-primary">Go to page</a>
+      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="3000">
+            <div class="d-flex justify-content-center">
+              <div class="card card-space" style="width: 18rem;">
+                <img src="images/perlinwalk.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PerlinWalk</h5>
+                  <p class="card-text">Using p5.js to make voxel like terrain</p>
+                  <a href="perlinWalk/index.html" class="btn btn-primary">Go to page</a>
+                </div>
+              </div>
+              <div class="card card-space" style="width: 18rem;">
+                <img src="images/temp.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">p5Background</h5>
+                  <p class="card-text">Using p5.js to make a reactive background</p>
+                  <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
+                </div>
+              </div>
+              <div class="card card-space" style="width: 18rem;">
+                <img src="images/temp.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Temp</h5>
+                  <p class="card-text">Temp</p>
+                  <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card card-space" style="width: 18rem;">
-          <img src="images/temp.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">p5Background</h5>
-            <p class="card-text">Using p5.js to make a reactive background</p>
-            <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
+            <div class="carousel-item" data-interval="3000">
+              <div class="d-flex justify-content-center">
+                <div class="card card-space" style="width: 18rem;">
+                  <img src="images/temp.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">PerlinWalk</h5>
+                    <p class="card-text">Using p5.js to make voxel like terrain</p>
+                    <a href="perlinWalk/index.html" class="btn btn-primary">Go to page</a>
+                  </div>
+                </div>
+                <div class="card card-space" style="width: 18rem;">
+                  <img src="images/temp.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">p5Background</h5>
+                    <p class="card-text">Using p5.js to make a reactive background</p>
+                    <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
+                  </div>
+                </div>
+                <div class="card card-space" style="width: 18rem;">
+                  <img src="images/temp.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Temp</h5>
+                    <p class="card-text">Temp</p>
+                    <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="card card-space" style="width: 18rem;">
-          <img src="images/temp.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Temp</h5>
-            <p class="card-text">Temp</p>
-            <a href="p5background/index.html" class="btn btn-primary">Go to page</a>
-          </div>
-        </div>
-      </div>
       <h1 class="display-4 textCenter">Game Maker Studio</h1>
       <!-- Game Maker Cards. -->
       <div class="d-flex justify-content-center">

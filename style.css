@@ -8,12 +8,18 @@ html, body {
 }
 .card{
   display: inline-block;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
   margin:0.5em;
 }
 
-.card-img-top{
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+.card, .card-img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+body {
+  background-color: #8bbabb;
+}
+
+.jumbotron {
+  background-color: #8bbabb;
 }
