@@ -8,4 +8,12 @@ html, body {
 }
 .card{
   display: inline-block;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin:0.5em;
+}
+
+.card-img-top{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
