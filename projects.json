@@ -1,0 +1,36 @@
+projects ={
+"p5":[
+	{
+		"name": "PerlinWalk",
+		"idea": "Using p5.js to make voxel like terrain",
+		"image": "images/PerlinWalk.gif",
+		"link": "perlinWalk/index.html",
+		"description": "test"
+	},{
+		"name": "p5Background",
+		"idea": "Using p5.js to make a reactiv background",
+		"image": "images/temp.png",
+		"link": "p5Background/index.html",
+		"description": "test"
+	},{
+		"name": "Retro Sci-Fi Background",
+		"idea": "Using p5.js to make animated retro sci-fi background",
+		"image": "images/temp.png",
+		"link": "80sSciFiBackground/index.html",
+		"description": "test"
+	}],
+	"GM":[
+	{
+		"name": "test",
+		"idea": "test",
+		"image": "images/temp.png",
+		"link": "perlinWalk/index.html",
+		"description": "test"
+	},{
+		"name": "test2",
+		"idea": "test2",
+		"image": "images/temp.png",
+		"link": "perlinWalk/index.html",
+		"description": "test2"
+	}
+]}

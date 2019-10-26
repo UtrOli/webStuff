@@ -3,22 +3,25 @@
   <!-- colorpalette https://colorhunt.co/palette/154144-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- p5.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <div class="container" style="margin-top:1em">
     <!--<div class="jumbotron">-->
       <div style="color:#eeeeee">
-        <h1 class="display-4 textCenter" style="margin-top:1em">WebStuff</h1>
-        <p class="lead textCenter">WebStuff is different webprojects i create for fun</p>
-        <hr class="my-4">
+        <h1 class="display-4 textCenter" style="margin-top:1em" data-aos="fade-right" data-aos-duration="4000">WebStuff</h1>
+        <p class="lead textCenter" data-aos="fade-right" data-aos-duration="4000">WebStuff is different webprojects i create for fun</p>
+        <hr class="my-4" data-aos="fade-right" data-aos-duration="4000">
       </div>
-      <div style="background-color:rgba(108, 123, 149,0.2);">
-        <h1 class="display-4 textCenter" style="margin-top:14em">P5.js</h1>
+      <div style="background-color:rgba(108, 123, 149,0.2);" data-aos="fade-in" data-aos-duration="4000">
+        <h1 class="display-4 textCenter" style="margin-top:14em" data-aos="fade-right" data-aos-duration="4000">P5.js</h1>
       <!-- P5 Cards. -->
-      <div id="carouselExampleInterval" class="carousel slide">
+      <div id="carouselExampleInterval" class="carousel slide" data-aos="fade-right" data-aos-duration="4000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="d-flex justify-content-center">
@@ -86,9 +89,13 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      <h1 class="display-4 textCenter">Game Maker Studio</h1>
+      <h1 class="display-4 textCenter" data-aos="fade-right" data-aos-duration="4000">P5.js</h1>
+        <!-- P5 Cards. -->
+      <div class="d-flex justify-content-center" data-aos="fade-left" data-aos-duration="4000" id="p5">
+      </div>
+      <h1 class="display-4 textCenter" data-aos="fade-left" data-aos-duration="4000">Game Maker Studio</h1>
       <!-- Game Maker Cards. -->
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center" data-aos="fade-left" data-aos-duration="4000" id="GM">
         <div class="card card-space" style="width: 18rem;">
           <img src="images/temp.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -103,9 +110,17 @@
   </div>
 
 <script src="sketch.js"></script>
+<script src="renderProjects.js"></script>
+<script type="text/javascript" src="projects.json"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  $( document ).ready( renderProjectCards());
+</script>
 </body>
 </html>
