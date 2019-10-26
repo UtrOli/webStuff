@@ -23,3 +23,18 @@ body {
 .jumbotron {
   background-color: #8bbabb;
 }
+
+h1 {
+  color:#eeeeee;
+}
+
+canvas {
+  position:fixed;
+  width: 800px;
+  height: 800px;
+  top: 60%;
+  left: 50%;
+  margin-top: -400px; /* Negative half of height. */
+  margin-left: -400px; /* Negative half of width. */
+  z-index: -3;
+}
