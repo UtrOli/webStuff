@@ -40,7 +40,7 @@ function drawLine(yPos, num){
 
 function drawLines(){
   line(0,yStart,displayWidth,yStart);
-  line(displayWidth/2,yStart,displayWidth/2-70,displayHeight);
+  line(displayWidth/2,yStart,displayWidth/2,displayHeight);
   for(let i=1;i<6;i++){
     line(displayWidth/2-i*150,yStart,displayWidth/2-(i*i+2)*250,displayHeight);
     line(displayWidth/2+i*150,yStart,displayWidth/2+(i*i+2)*250-70,displayHeight);
