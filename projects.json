@@ -23,14 +23,14 @@ projects ={
 	{
 		"name": "Floating Orb",
 		"idea": "Casual game about moving orbs to get the highest score",
-		"image": "images/floatingOrbTn.png",
+		"image": "images/floatingOrb.png",
 		"link": "games/floatingOrb/floatingOrb.html",
 		"description": "test"
 	},{
 		"name": "Pixel Shooter",
 		"idea": "Casual shooter game",
 		"image": "images/temp.png",
-		"link": "game/pixelShooter/index.html",
+		"link": "games/pixelShooter/index.html",
 		"description": "test2"
 	}
 ]}
