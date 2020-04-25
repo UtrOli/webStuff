@@ -27,10 +27,10 @@ projects ={
 		"link": "games/floatingOrb/floatingOrb.html",
 		"description": "test"
 	},{
-		"name": "test2",
-		"idea": "test2",
+		"name": "Pixel Shooter",
+		"idea": "Casual shooter game",
 		"image": "images/temp.png",
-		"link": "perlinWalk/index.html",
+		"link": "game/pixelShooter/index.html",
 		"description": "test2"
 	}
 ]}
