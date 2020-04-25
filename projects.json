@@ -10,7 +10,7 @@ projects ={
 		"name": "p5Background",
 		"idea": "Using p5.js to make a reactiv background",
 		"image": "images/p5bg.png",
-		"link": "p5Background/index.html",
+		"link": "p5background/index.html",
 		"description": "test"
 	},{
 		"name": "Retro Sci-Fi Background",
