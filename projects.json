@@ -21,10 +21,10 @@ projects ={
 	}],
 	"GM":[
 	{
-		"name": "test",
-		"idea": "test",
-		"image": "images/temp.png",
-		"link": "perlinWalk/index.html",
+		"name": "Floating Orb",
+		"idea": "Casual game about moving orbs to get the highest score",
+		"image": "images/floatingOrbTn.png",
+		"link": "games/floatingOrb/floatingOrb.html",
 		"description": "test"
 	},{
 		"name": "test2",
