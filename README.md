@@ -1,6 +1,4 @@
 # webStuff
 
-### What the repo name says.
+### A collection of different small web experiments.
 [view](https://utroli.github.io/webStuff/)
-
-asd
