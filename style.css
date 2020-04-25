@@ -42,6 +42,16 @@ canvas {
   margin-left: -400px; /* Negative half of width. */
   z-index: -3;
 }
+
+.zoom:hover{
+    width: 20rem;
+    height:32rem;
+}
+
+.zoom{
+    width:18rem;
+    height: 30rem;
+}
 /*
 edit to update github pages
 */

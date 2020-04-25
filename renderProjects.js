@@ -9,12 +9,19 @@ function renderProjectCards(){
 }
 
 function renderCard(project, id){
-  let code = '<div class="card card-space" style="width: 18rem;">' +
+    let code = '<div class="card card-space zoom">' +
             '<img src="'+project.image +'" class="card-img-top" alt="...">'+
             '<div class="card-body">'+
             '<h5 class="card-title">'+project.name+'</h5>'+
             '<p class="card-text">'+project.idea+'</p>'+
             '<a href="'+project.link+'" class="btn btn-primary">Go to page</a>'+
             '</div></div>'
-  $(id).append(code);
+    let child = $(id).append(code);
+    /*
+    $(child).on( "mouseenter", function(){
+        $(child).width("5em");
+    });
+    $(child).on( "mouseleave", function(){
+        $(child).width("50em");
+    });*/
 }
