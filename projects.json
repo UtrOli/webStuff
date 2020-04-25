@@ -29,7 +29,7 @@ projects ={
 	},{
 		"name": "Pixel Shooter",
 		"idea": "Casual shooter game",
-		"image": "images/temp.png",
+		"image": "images/pixelShooter.png",
 		"link": "games/pixelShooter/index.html",
 		"description": "test2"
 	}
