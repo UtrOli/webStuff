@@ -44,13 +44,15 @@ canvas {
 }
 
 .zoom:hover{
-    width: 20rem;
-    height:32rem;
+    transition-duration: 0.5s;
+    transform: scale(1.1, 1.1);
 }
 
 .zoom{
+    transition-duration: 0.5s;
     width:18rem;
     height: 30rem;
+
 }
 /*
 edit to update github pages
