@@ -15,7 +15,7 @@ projects ={
 	},{
 		"name": "Retro Sci-Fi Background",
 		"idea": "Using p5.js to make animated retro sci-fi background",
-		"image": "images/temp.png",
+		"image": "images/scifibg.gif",
 		"link": "80sSciFiBackground/index.html",
 		"description": "test"
 	}],
