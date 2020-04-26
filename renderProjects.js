@@ -12,12 +12,12 @@ function renderProjectCards(){
 }
 
 function renderCard(project, id){
-    let code = '<div class="card card-space zoom">' +
+    let code = '<a href="'+project.link+'"><div class="card card-space zoom">' +
             '<img src="'+project.image +'" class="card-img-top" alt="...">'+
             '<div class="card-body">'+
             '<h5 class="card-title">'+project.name+'</h5>'+
             '<p class="card-text">'+project.idea+'</p>'+
-            '<a href="'+project.link+'" class="btn btn-primary">Go to page</a>'+
-            '</div></div>'
+            ''+
+            '</div></div></a>'
     let child = $(id).append(code);
 }
