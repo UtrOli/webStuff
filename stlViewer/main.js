@@ -58,11 +58,11 @@ function STLViewer(model, elementID) {
 }
 
 window.onload = function() {
-    STLViewer("/stlViewer/models/"+models[2], "model")
+    STLViewer("/webStuff/stlViewer/models/"+models[2], "model")
 
     for(i=0;i<models.length;i++){
         let code = '<div id="item'+i+'" style="width: 100%; height: 170px;"></div>';
         $("#menu").append(code);
-        STLViewer("/stlViewer/models/"+models[i], "item"+i)
+        STLViewer("/webStuff/stlViewer/models/"+models[i], "item"+i)
     }
 }
