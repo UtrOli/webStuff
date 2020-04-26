@@ -6,6 +6,9 @@ function renderProjectCards(){
   for (let i=0;i<myProjects.p5.length;i++){
     renderCard(myProjects.p5[i],"#p5");
   }
+  for (let i=0;i<myProjects.three.length;i++){
+    renderCard(myProjects.three[i],"#three");
+  }
 }
 
 function renderCard(project, id){
@@ -17,11 +20,4 @@ function renderCard(project, id){
             '<a href="'+project.link+'" class="btn btn-primary">Go to page</a>'+
             '</div></div>'
     let child = $(id).append(code);
-    /*
-    $(child).on( "mouseenter", function(){
-        $(child).width("5em");
-    });
-    $(child).on( "mouseleave", function(){
-        $(child).width("50em");
-    });*/
 }

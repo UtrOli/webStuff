@@ -1,5 +1,5 @@
 projects ={
-"p5":[
+	"p5":[
 	{
 		"name": "PerlinWalk",
 		"idea": "Using p5.js to make voxel like terrain",
@@ -32,5 +32,13 @@ projects ={
 		"image": "images/pixelShooter.png",
 		"link": "games/pixelShooter/index.html",
 		"description": "test2"
-	}
-]}
+	}],
+	"three":[
+		{
+		"name": "CAD model viewer",
+		"idea": "Viewer for my 3D printer models",
+		"image": "images/stlViewer.png",
+		"link": "STLViewer/index.html",
+		"description": "test2"
+	}],
+}
