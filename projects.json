@@ -38,7 +38,7 @@ projects ={
 		"name": "CAD model viewer",
 		"idea": "Viewer for my 3D printer models",
 		"image": "images/stlViewer.png",
-		"link": "STLViewer/index.html",
+		"link": "stlViewer/index.html",
 		"description": "test2"
 	}],
 }
