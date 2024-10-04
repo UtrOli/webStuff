@@ -21,6 +21,12 @@ projects ={
 	}],
 	"GM":[
 	{
+		"name": "D-Bag Kriss The Game",
+		"idea": "A story heavy game about Kriss the D-bag.",
+		"image": "images/krissTheGameLogo.png",
+		"link": "games/krissTheGame/krissTheGame.html",
+		"description": "test"
+	},{
 		"name": "Floating Orb",
 		"idea": "Casual game about moving orbs to get the highest score",
 		"image": "images/floatingOrb.png",
